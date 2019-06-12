@@ -9,5 +9,7 @@
 #ifndef DTCategories_h
 #define DTCategories_h
 
+#import "UIButton+DTAdd.h"
+#import "UIView+DTAdd.h"
 
 #endif /* DTCategories_h */
