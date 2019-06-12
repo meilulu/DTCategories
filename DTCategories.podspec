@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/meilulu/DTCategories.git"}
 
   s.requires_arc = true
-  s.source_files  = "DTCategories","*.{h,m}" 
+  s.source_files  = 'DTCategories/*.{h,m}'
 
 
 
