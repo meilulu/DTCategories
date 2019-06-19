@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 #import "DTCategories.h"
-@interface ViewController ()
-
+@interface ViewController ()<UITextViewDelegate>
+@property (strong, nonatomic) UITextView *textView;
 @end
 
 @implementation ViewController
@@ -23,11 +23,28 @@
 }
 
 - (void)doRightAction {
-    [self.view dt_showLoadingView];
+    [self.textView setPlaceholder:@"天上飞过一群天使"];
 }
 
 - (void)doLeftAction {
-    [self.view dt_hideLoadingView];
+    UITextView *textView = [UITextView new];
+    self.textView = textView;
+    textView.backgroundColor = [UIColor yellowColor];
+    textView.frame = CGRectMake(15, 200, self.view.bounds.size.width-30, 200);
+    [self.view addSubview:textView];
+    [textView setPlaceholder:@"请输入文字.."];
+    textView.delegate = self;
+    
+    [textView.text addObserver:self forKeyPath:@"length" options:NSKeyValueObservingOptionNew context:nil];
 }
 
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    if ([keyPath isEqualToString:@"length"]) {
+        NSLog(@"1111");
+    }
+}
+
+- (void)textViewDidChange:(UITextView *)textView {
+    NSLog(@"%@",textView.text);
+}
 @end

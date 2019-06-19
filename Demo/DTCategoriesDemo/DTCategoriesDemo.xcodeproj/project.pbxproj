@@ -15,6 +15,9 @@
 		B29349A322B0E8BC003BA579 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29349A222B0E8BC003BA579 /* main.m */; };
 		B29349B122B0E91F003BA579 /* UIButton+DTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B29349B022B0E91F003BA579 /* UIButton+DTAdd.m */; };
 		B29349B422B0E9F1003BA579 /* UIView+DTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B29349B322B0E9F1003BA579 /* UIView+DTAdd.m */; };
+		B29349B722B0EE5A003BA579 /* UIColor+DTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B29349B622B0EE5A003BA579 /* UIColor+DTAdd.m */; };
+		B29349BD22B239D5003BA579 /* NSString+DTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B29349BC22B239D5003BA579 /* NSString+DTAdd.m */; };
+		B2BCE1AA22B4BA21002C2282 /* CALayer+DTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BCE1A922B4BA21002C2282 /* CALayer+DTAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		B29349B022B0E91F003BA579 /* UIButton+DTAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DTAdd.m"; sourceTree = "<group>"; };
 		B29349B222B0E9F1003BA579 /* UIView+DTAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DTAdd.h"; sourceTree = "<group>"; };
 		B29349B322B0E9F1003BA579 /* UIView+DTAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DTAdd.m"; sourceTree = "<group>"; };
+		B29349B522B0EE5A003BA579 /* UIColor+DTAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DTAdd.h"; sourceTree = "<group>"; };
+		B29349B622B0EE5A003BA579 /* UIColor+DTAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DTAdd.m"; sourceTree = "<group>"; };
+		B29349BB22B239D5003BA579 /* NSString+DTAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DTAdd.h"; sourceTree = "<group>"; };
+		B29349BC22B239D5003BA579 /* NSString+DTAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DTAdd.m"; sourceTree = "<group>"; };
+		B2BCE1A822B4BA21002C2282 /* CALayer+DTAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+DTAdd.h"; sourceTree = "<group>"; };
+		B2BCE1A922B4BA21002C2282 /* CALayer+DTAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+DTAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,12 @@
 				B29349B022B0E91F003BA579 /* UIButton+DTAdd.m */,
 				B29349B222B0E9F1003BA579 /* UIView+DTAdd.h */,
 				B29349B322B0E9F1003BA579 /* UIView+DTAdd.m */,
+				B29349B522B0EE5A003BA579 /* UIColor+DTAdd.h */,
+				B29349B622B0EE5A003BA579 /* UIColor+DTAdd.m */,
+				B29349BB22B239D5003BA579 /* NSString+DTAdd.h */,
+				B29349BC22B239D5003BA579 /* NSString+DTAdd.m */,
+				B2BCE1A822B4BA21002C2282 /* CALayer+DTAdd.h */,
+				B2BCE1A922B4BA21002C2282 /* CALayer+DTAdd.m */,
 			);
 			name = DTCategories;
 			path = ../../../DTCategories;
@@ -163,10 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B293499822B0E8BB003BA579 /* ViewController.m in Sources */,
+				B29349B722B0EE5A003BA579 /* UIColor+DTAdd.m in Sources */,
 				B29349B122B0E91F003BA579 /* UIButton+DTAdd.m in Sources */,
 				B29349A322B0E8BC003BA579 /* main.m in Sources */,
 				B29349B422B0E9F1003BA579 /* UIView+DTAdd.m in Sources */,
 				B293499522B0E8BB003BA579 /* AppDelegate.m in Sources */,
+				B29349BD22B239D5003BA579 /* NSString+DTAdd.m in Sources */,
+				B2BCE1AA22B4BA21002C2282 /* CALayer+DTAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
