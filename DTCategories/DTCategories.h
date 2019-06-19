@@ -14,6 +14,5 @@
 #import "UIColor+DTAdd.h"
 #import "NSString+DTAdd.h"
 #import "CALayer+DTAdd.h"
-#import "UITextView+DTAdd.h"
 
 #endif /* DTCategories_h */
