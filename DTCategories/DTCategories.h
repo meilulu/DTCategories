@@ -14,5 +14,6 @@
 #import "UIColor+DTAdd.h"
 #import "NSString+DTAdd.h"
 #import "CALayer+DTAdd.h"
+#import "UIImage+DTAdd.h"
 
 #endif /* DTCategories_h */
